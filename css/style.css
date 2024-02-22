@@ -151,11 +151,14 @@ section {
 	justify-content: space-between;
 }
 .dock{
-	
+	margin-right: 500px;
 	gap: 32px;
 }
+.logo{
+	margin-top: -5px;
+}
 li{
-	color: rgb(18, 23, 34);
+	color: rgba(18, 23, 34, 0.7);
 font-size: 16px;
 font-weight: 400;
 line-height: 20px;
@@ -164,4 +167,42 @@ text-align: left;
 }
 .head_in{
 	margin-top: 20px;
+}
+.bold{
+	color: rgb(18, 23, 34);
+	font-weight: 700;
+}
+.login{
+	color: rgba(18, 23, 34, 0.7);
+	margin-top: 10px;
+	margin-left: 50px;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.sec_tit{
+	color: rgb(18, 23, 34);
+font-size: 50px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;	
+width: 380px;
+margin-bottom: 20px;
+}
+.sec_txt{
+	color: rgba(18, 23, 34, 0.7);
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+width: 239px;
+margin-bottom: 20px;
+}
+.blue{
+	background: rgb(64, 88, 255);
+	color: #fff;
 }
