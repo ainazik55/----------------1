@@ -133,8 +133,9 @@ section {
 }
 
 .btn:hover {
-	
-	
+	background: rgb(64, 88, 255);
+	color: #fff;
+
 }
 
 .link {
@@ -150,59 +151,86 @@ section {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.dock{
+
+.dock {
 	margin-right: 500px;
 	gap: 32px;
 }
-.logo{
+
+.logo {
 	margin-top: -5px;
 }
-li{
+
+li {
 	color: rgba(18, 23, 34, 0.7);
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: left;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0%;
+	text-align: left;
 }
-.head_in{
+
+.head_in {
 	margin-top: 20px;
 }
-.bold{
+
+.bold {
 	color: rgb(18, 23, 34);
 	font-weight: 700;
 }
-.login{
+
+.login {
 	color: rgba(18, 23, 34, 0.7);
 	margin-top: 10px;
 	margin-left: 50px;
-font-size: 16px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: left;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0%;
+	text-align: left;
 }
-.sec_tit{
+
+.sec_tit {
 	color: rgb(18, 23, 34);
-font-size: 50px;
-font-weight: 400;
-line-height: 50px;
-letter-spacing: 0%;
-text-align: left;	
-width: 380px;
-margin-bottom: 20px;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 0%;
+	text-align: left;
+	width: 380px;
+	margin-bottom: 20px;
 }
-.sec_txt{
+
+.sec_txt {
 	color: rgba(18, 23, 34, 0.7);
-font-size: 20px;
-font-weight: 400;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: left;
-width: 239px;
-margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0%;
+	text-align: left;
+	width: 239px;
+	margin-bottom: 20px;
 }
-.blue{
+
+.blue {
+	transition: 0.3s;
 	background: rgb(64, 88, 255);
 	color: #fff;
+}
+
+.blue:hover {
+	background: rgba(64, 140, 255, 0.1);
+	color: rgb(64, 88, 255);
+	;
+}
+
+.card_in {
+	padding: 79px 48px 48px 48px;
+}
+
+.card {
+	width: 628px;
+	height: 585px;
+	border-radius: 16px;
+	background: rgba(255, 244, 245, 0.5);
 }
