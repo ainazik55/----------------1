@@ -250,6 +250,7 @@ li {
 
 .card_in .sec_tit {
 	color: rgb(18, 23, 34);
+	font-family: Roboto;
 	width: 268px;
 	font-size: 24px;
 	font-weight: 400;
@@ -261,6 +262,7 @@ li {
 .card_in .sec_txt {
 	width: 519px;
 	color: rgba(18, 23, 34, 0.6);
+	font-family: Roboto;
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 30px;
@@ -300,6 +302,7 @@ li {
 	width: 100%;
 	height: 114px;
 	color: rgb(18, 23, 34);
+	font-family: Roboto;
 	font-size: 34px;
 	font-weight: 400;
 	line-height: 38px;
@@ -309,6 +312,7 @@ li {
 
 .complex .sec_txt {
 	color: rgba(18, 23, 34, 0.7);
+	font-family: Roboto;
 	width: 337px;
 	font-size: 20px;
 	font-weight: 400;
@@ -329,6 +333,7 @@ li {
 .work .sec_txt{
 	width: 764px;
 	color: rgba(18, 23, 34, 0.7);
+	font-family: Roboto;
 	font-size: 21px;
 	font-weight: 400;
 	line-height: 32px;
