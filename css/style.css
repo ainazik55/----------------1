@@ -163,6 +163,7 @@ section {
 
 li {
 	color: rgba(18, 23, 34, 0.7);
+	font-family: Roboto;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
@@ -176,11 +177,13 @@ li {
 
 .bold {
 	color: rgb(18, 23, 34);
+	font-family: Roboto;
 	font-weight: 700;
 }
 
 .login {
 	color: rgba(18, 23, 34, 0.7);
+	font-family: Roboto;
 	margin-top: 10px;
 	margin-left: 50px;
 	font-size: 16px;
@@ -192,6 +195,7 @@ li {
 
 .sec_tit {
 	color: rgb(18, 23, 34);
+	font-family: Roboto;
 	font-size: 50px;
 	font-weight: 400;
 	line-height: 50px;
@@ -203,10 +207,10 @@ li {
 
 .sec_txt {
 	color: rgba(18, 23, 34, 0.7);
+	font-family: Roboto;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 27px;
-	letter-spacing: 0%;
 	text-align: left;
 	width: 239px;
 	margin-bottom: 20px;
@@ -216,16 +220,21 @@ li {
 	transition: 0.3s;
 	background: rgb(64, 88, 255);
 	color: #fff;
+	font-family: Roboto;
 }
 
 .blue:hover {
 	background: rgba(64, 140, 255, 0.1);
 	color: rgb(64, 88, 255);
-	;
+	font-family: Roboto;
+	
 }
 
 .card_in {
 	padding: 79px 48px 48px 48px;
+}
+.card_in__right{
+	padding-bottom: 144px;
 }
 
 .card {
@@ -239,17 +248,26 @@ li {
 	gap: 24px;
 }
 
-.desc_txt {
-	height: 30px;
+.card_in .sec_tit {
 	color: rgb(18, 23, 34);
+	width: 268px;
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 30px;
 	letter-spacing: 0%;
 	text-align: left;
-	right: 49.62%;
-	top: -6.97px;
 }
+
+.card_in .sec_txt {
+	width: 519px;
+	color: rgba(18, 23, 34, 0.6);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
 
 .card_img {
 	width: 532px;
@@ -257,54 +275,64 @@ li {
 	padding: 0 48px 35px 48px;
 }
 
-.desc_txt {
-	color: rgb(18, 23, 34);
-	right: 20.68%;
-	top: -7.97px;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
-	letter-spacing: 0%;
-	text-align: left;
-	right: 20.68%;
-	top: 72px;
-	bottom: 435.19px;
-}
 
-.complex_in{
 
+.complex_in {
 	border-radius: 16px;
-
+	width: 1280px;
+	height: 650px;
 	background: rgba(241, 245, 255, 0.5);
 }
-.complex_img{
+
+.complex_img {
 	padding: 80px 48px 450px 48px;
 	width: 782px;
 	display: flex;
 }
 
-.complex .sec_tit{
-	display: flex;
+
+.complex_right {
+	padding-top: 172px;
+	width: calc(100% - 782px);
+}
+
+.complex .sec_tit {
+	width: 100%;
+	height: 114px;
 	color: rgb(18, 23, 34);
-	width: 283px;
 	font-size: 34px;
 	font-weight: 400;
 	line-height: 38px;
-	letter-spacing: 0%;
-	height: 145px;
-	left: 0.06%;
-	right: 1.75%;
-	top: 131.53px;
-	bottom: 171.47px;
-	
+	margin-bottom: -20px;
+
 }
 
-.complex .sec_txt{
+.complex .sec_txt {
 	color: rgba(18, 23, 34, 0.7);
 	width: 337px;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 29px;
+
+}
+
+.work .sec_tit {
+	width: 836px;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
 	letter-spacing: 0%;
-	
+	margin-bottom: 17px;
+	margin-left: 272px;
+}
+ 
+.work .sec_txt{
+	width: 764px;
+	color: rgba(18, 23, 34, 0.7);
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 0%;
+	text-align: center;
+	margin-left: 258px;
 }
