@@ -234,6 +234,77 @@ li {
 	border-radius: 16px;
 	background: rgba(255, 244, 245, 0.5);
 }
-.cards{
+
+.cards {
 	gap: 24px;
+}
+
+.desc_txt {
+	height: 30px;
+	color: rgb(18, 23, 34);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0%;
+	text-align: left;
+	right: 49.62%;
+	top: -6.97px;
+}
+
+.card_img {
+	width: 532px;
+	height: 343px;
+	padding: 0 48px 35px 48px;
+}
+
+.desc_txt {
+	color: rgb(18, 23, 34);
+	right: 20.68%;
+	top: -7.97px;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0%;
+	text-align: left;
+	right: 20.68%;
+	top: 72px;
+	bottom: 435.19px;
+}
+
+.complex_in{
+
+	border-radius: 16px;
+
+	background: rgba(241, 245, 255, 0.5);
+}
+.complex_img{
+	padding: 80px 48px 450px 48px;
+	width: 782px;
+	display: flex;
+}
+
+.complex .sec_tit{
+	display: flex;
+	color: rgb(18, 23, 34);
+	width: 283px;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0%;
+	height: 145px;
+	left: 0.06%;
+	right: 1.75%;
+	top: 131.53px;
+	bottom: 171.47px;
+	
+}
+
+.complex .sec_txt{
+	color: rgba(18, 23, 34, 0.7);
+	width: 337px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0%;
+	
 }
