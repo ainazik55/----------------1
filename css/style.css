@@ -92,7 +92,7 @@ body {
 }
 
 section {
-	padding: 100px 0;
+	padding: 24px 0;
 }
 
 .sec_tit {
@@ -227,13 +227,14 @@ li {
 	background: rgba(64, 140, 255, 0.1);
 	color: rgb(64, 88, 255);
 	font-family: Roboto;
-	
+
 }
 
 .card_in {
 	padding: 79px 48px 48px 48px;
 }
-.card_in__right{
+
+.card_in__right {
 	padding-bottom: 144px;
 }
 
@@ -329,8 +330,8 @@ li {
 	margin-bottom: 17px;
 	margin-left: 272px;
 }
- 
-.work .sec_txt{
+
+.work .sec_txt {
 	width: 764px;
 	color: rgba(18, 23, 34, 0.7);
 	font-family: Roboto;
@@ -340,4 +341,58 @@ li {
 	letter-spacing: 0%;
 	text-align: center;
 	margin-left: 258px;
+}
+
+
+.Understand_in {
+	width: 1280px;
+	height: 682px;
+	border-radius: 16px;
+	background: rgb(18, 23, 34);
+}
+
+.Understand_left .sec_tit {
+	height: 38px;
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 38px;
+	padding: 246px 48px;
+
+}
+
+.Understand_left .sec_txt {
+	width: 325px;
+	height: 87px;
+	color: rgb(185, 192, 213);
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 29px;
+	margin-left: 48px;
+}
+
+.Understand_img {
+	width: 782px;
+	height: 522px;
+	padding: 80px 23px 80px;
+}
+
+.dock_left .sec_tit {
+	width: 326px;
+	height: 114px;
+}
+
+.dock_left .sec_txt {
+	width: 301px;
+	height: 58px;
+}
+
+.dock_card {
+    width: calc((50% - 19px));
+	height: 430px;
+	border-radius: 16px;
+	box-shadow: 0px 0px 0px 0px rgba(29, 33, 60, 0.27);
+	background: rgb(64, 88, 255);
 }
