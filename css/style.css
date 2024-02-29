@@ -519,3 +519,12 @@ text-align: left;
 	display: flex;
 	gap: 97px;
 }
+.footer li{
+	color: rgb(18, 23, 34);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
