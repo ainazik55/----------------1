@@ -171,6 +171,7 @@ section {
 	width: 114px;
 	height: 26px;
 	margin-top: -5px;
+	margin-bottom: 8px;
 }
 
 li {
@@ -494,5 +495,16 @@ li {
 
 .footer {
 	height: 125px;
+	
 }
 
+.footer_txt{
+	max-width: 182px;
+	color: rgba(18, 23, 34, 0.7);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
