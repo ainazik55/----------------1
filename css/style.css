@@ -172,6 +172,8 @@ section {
 	height: 26px;
 	margin-top: -5px;
 	margin-bottom: 8px;
+	margin-left: 48px;
+
 }
 
 li {
@@ -417,10 +419,11 @@ li {
 
 .dock_right {
 	gap: 39px;
+	padding-right: 80px;
 }
 
 .dock_card {
-
+    
 	width: 347px;
 	height: 430px;
 	border-radius: 16px;
@@ -493,10 +496,20 @@ li {
 	color: rgb(255, 255, 255);
 }
 
+
+.dock_in {
+	width: 1280px;
+	height: 590px;
+	border-radius: 16px;
+	background: rgba(241, 245, 255, 0.5);
+	padding-top: 78px;
+}
+
 .footer {
 	height: 125px;
 
 }
+
 
 .footer_txt {
 	max-width: 182px;
@@ -507,6 +520,7 @@ li {
 	line-height: 19px;
 	letter-spacing: 0%;
 	text-align: left;
+	margin-left: 48px;
 }
 
 
@@ -551,9 +565,10 @@ li {
 	letter-spacing: 0%;
 	margin-left: 550px;
 	text-align: center;
-	
+
 }
-.get_tit{
+
+.get_tit {
 	margin-bottom: 18px;
 	color: rgb(255, 255, 255);
 	font-family: Roboto;
