@@ -165,14 +165,25 @@ section {
 
 .dock {
 	gap: 32px;
+	margin-left: 32px;
 }
 
+.header{
+	gap: 32px;
+}
+
+.start{
+    gap: 16px;
+}
+
+
 .logo {
-	width: 114px;
-	height: 26px;
+	width: 104px;
+	height: 24px;
 	margin-top: -5px;
 	margin-bottom: 8px;
-	margin-left: 48px;
+	margin-left: -66px;
+
 
 }
 
@@ -180,32 +191,32 @@ li {
 	color: rgba(18, 23, 34, 0.7);
 	font-family: Roboto;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 20px;
 	letter-spacing: 0%;
 	text-align: left;
 }
 
 .head_in {
+	width: 1280px;
 	margin-top: 20px;
 }
 
 .bold {
 	color: rgb(18, 23, 34);
 	font-family: Roboto;
-	font-weight: 700;
+	justify-content: space-between;
 }
 
 .login {
 	color: rgba(18, 23, 34, 0.7);
 	font-family: Roboto;
 	margin-top: 10px;
-	margin-left: 50px;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 20px;
 	letter-spacing: 0%;
-	text-align: left;
+	margin-left: 16px;
 }
 
 .sec_tit {
@@ -399,6 +410,7 @@ li {
 
 .dock_left {
 	margin-left: 80px;
+
 }
 
 .dock_left .sec_tit {
@@ -423,7 +435,7 @@ li {
 }
 
 .dock_card {
-    
+
 	width: 347px;
 	height: 430px;
 	border-radius: 16px;
@@ -510,6 +522,15 @@ li {
 
 }
 
+.footer_logo {
+	width: 114px;
+	height: 26px;
+	margin-top: -5px;
+	margin-bottom: 8px;
+	margin-left: 48px;
+
+}
+
 
 .footer_txt {
 	max-width: 182px;
@@ -537,8 +558,8 @@ li {
 .li {
 	color: rgb(18, 23, 34);
 	font-family: Roboto;
-	font-size: 16px;
-	font-weight: 700;
+	font-size: 15px;
+	font-weight: 400;
 	line-height: 20px;
 	letter-spacing: 0%;
 	margin-bottom: 8px;
