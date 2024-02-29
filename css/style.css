@@ -379,17 +379,21 @@ li {
 }
 
 .dock_left .sec_tit {
-	width: 326px;
-	height: 114px;
+	max-width: 326px;
 }
 
-.dock_left .sec_txt {
+. .dock_left .sec_txt {
 	width: 301px;
 	height: 58px;
 }
 
+.dock_right {
+	gap: 39px;
+}
+
 .dock_card {
-    width: calc((50% - 19px));
+
+	width: 347px;
 	height: 430px;
 	border-radius: 16px;
 	box-shadow: 0px 0px 0px 0px rgba(29, 33, 60, 0.27);
