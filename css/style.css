@@ -536,3 +536,19 @@ li {
 	border-radius: 16px;
 	background: rgb(64, 88, 255);
 }
+
+.white {
+	border-radius: 100px;
+
+	box-shadow: 0px 4px 4px 0px rgba(18, 23, 34, 0.01);
+	background: rgb(255, 255, 255);
+	width: 158px;
+	height: 46px;
+	color: rgb(64, 88, 255);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 0%;
+	text-align: center;
+}
