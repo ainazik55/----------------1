@@ -508,3 +508,9 @@ line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 }
+
+
+.footer_list{
+	display: flex;
+	gap: 97px;
+}
