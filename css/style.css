@@ -33,16 +33,18 @@ img {
 	width: 100%;
 	height: auto;
 }
-.con_txt{
+
+.con_txt {
 	color: rgb(18, 23, 34);
-font-family: Roboto;
-font-size: 24px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 5px;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0%;
+	text-align: left;
+	margin-bottom: 5px;
 }
+
 button,
 label {
 	cursor: pointer;
@@ -167,6 +169,8 @@ section {
 }
 
 .logo {
+	width: 114px;
+	height: 26px;
 	margin-top: -5px;
 }
 
@@ -350,7 +354,8 @@ li {
 	text-align: center;
 	margin-left: 258px;
 }
-.work{
+
+.work {
 	margin-bottom: 64px;
 }
 
@@ -427,23 +432,24 @@ li {
 	margin-bottom: 32px;
 }
 
-.dock_icon{
+.dock_icon {
 	background: url(../img/icons/workk5.svg) no-repeat;
 	height: 40px;
 	margin-bottom: 32px;
 }
+
 .in {
 	padding: 32px 41px 106px 32px;
 }
 
 .dock_txt {
 	color: rgba(255, 255, 255, 0.9);
-font-family: Roboto;
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: left;
 }
 
 .dock_tit {
@@ -469,7 +475,7 @@ text-align: left;
 	text-align: left;
 }
 
-.dock_txt{
+.dock_txt {
 	max-width: 267px;
 	color: rgb(255, 255, 255);
 	font-family: Roboto;
@@ -480,6 +486,11 @@ text-align: left;
 	text-align: left;
 	margin-bottom: 15px;
 }
-.dock_text{
+
+.dock_text {
 	color: rgb(255, 255, 255);
+}
+
+.footer {
+	height: 125px;
 }
