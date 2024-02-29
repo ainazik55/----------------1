@@ -514,3 +514,8 @@ text-align: left;
 	display: flex;
 	gap: 97px;
 }
+
+.big_footer{
+	display: flex;
+	gap: 97px;
+}
